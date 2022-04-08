@@ -4,7 +4,7 @@ import json
 #! BALANCE
 
 
-def get_balance(player):
+def getbal(player):
     
     with open('economy_data.json') as eco_data:
         moneydata=json.load(eco_data)
@@ -26,7 +26,7 @@ def get_balance(player):
 #! TRANSFER
 
 
-def transfer_balance(from_player, to_player, amount):
+def transferbal(from_player, to_player, amount):
     amount=int(amount)
 
     with open('economy_data.json') as eco_data:

@@ -40,7 +40,7 @@ def removebal(amount,player):
 #! ACCOUNT CREATION
 
 
-def create_account(player):
+def createaccount(player):
     with open('economy_data.json') as eco_data:
         moneydata=json.load(eco_data)
 
